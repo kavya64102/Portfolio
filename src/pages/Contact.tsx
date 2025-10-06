@@ -1,23 +1,4 @@
-// import React from "react";
 
-// const Contact: React.FC = () => (
-//   <section className="max-w-5xl mx-auto p-8">
-//     <h2 className="text-2xl font-semibold">Contact</h2>
-//     <form className="mt-6 grid gap-3 max-w-xl">
-//       <input className="p-3 rounded-md border" placeholder="Your name" />
-//       <input className="p-3 rounded-md border" placeholder="Email" />
-//       <textarea className="p-3 rounded-md border" rows={4} placeholder="Message"></textarea>
-//       <div className="flex items-center gap-3">
-//         <button type="button" className="px-4 py-2 rounded-lg bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-700">
-//           Send Message
-//         </button>
-//         <a href="mailto:youremail@example.com" className="text-sm underline">Or email me directly</a>
-//       </div>
-//     </form>
-//   </section>
-// );
-
-// export default Contact;
 import React from "react";
 
 const Contact: React.FC = () => (
