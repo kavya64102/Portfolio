@@ -6,11 +6,14 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
+import Hero from "./components/Hero";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Education from "./pages/Education";
 import Experience from "./pages/Experience";
+import Blog from "./pages/Blog";
+import BlogDetails from "./pages/BlogDetails";
 
 const App: React.FC = () => {
   return (
@@ -19,12 +22,15 @@ const App: React.FC = () => {
         <Nav />
         <main className="mt-4">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Hero />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
             <Route path="/education" element={<Education />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:id" element={<BlogDetails />} />
+            
           </Routes>
         </main>
         <Footer />
