@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaBriefcase, FaCalendarAlt, FaMapMarkerAlt, FaCode } from 'react-icons/fa';
 
 export default function Experience() {

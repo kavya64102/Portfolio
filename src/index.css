@@ -935,3 +935,144 @@ footer h4{
     border-radius: 4px;
     margin-top: 5px;
 }
+
+/* ===========================
+   GENERAL PAGE LAYOUT
+   =========================== */
+.blog-container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  max-width: 900px;
+}
+
+/* Section titles */
+.page-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+/* Subheading inside blog details */
+.blog-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* ===========================
+   BLOG LIST PAGE STYLING
+   =========================== */
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Blog "cards" in list */
+.blog-list-item {
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: #1a1a3a;
+  border: 1px solid #29296d;
+  transition: 0.25s ease;
+}
+
+.blog-list-item:hover {
+  transform: translateY(-4px);
+  border-color: #d0d0d0;
+  box-shadow: 0px 8px 18px rgba(0,0,0,0.08);
+}
+
+/* Blog title */
+.blog-list-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+/* Blog excerpt */
+.blog-list-excerpt {
+  color: #dfdbdb;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Read more link */
+.read-more-btn {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.75rem;
+}
+
+/* Divider for TechFeed */
+.divider {
+  margin: 3rem 0;
+  border-top: 2px solid #efefef;
+}
+
+
+/* ===========================
+   BLOG DETAILS PAGE
+   =========================== */
+.blog-details-container {
+  max-width: 850px;
+  margin: auto;
+}
+
+/* Back link */
+.back-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  transition: 0.2s;
+}
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Title */
+.blog-details-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* Blog content */
+.blog-content {
+  margin-top: 1.5rem;
+  font-size: 1.08rem;
+  line-height: 1.75;
+  color: #e2e0e0;
+  white-space: pre-line;
+}
+
+/* Paragraph spacing */
+.blog-content p {
+  margin-bottom: 1rem;
+}
+
+/* ===========================
+   RESPONSIVE DESIGN
+   =========================== */
+@media (max-width: 768px) {
+  .blog-details-title {
+    font-size: 1.75rem;
+  }
+  .page-title {
+    font-size: 1.8rem;
+  }
+  .blog-content {
+    font-size: 1rem;
+  }
+}
+.blog-container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  max-width: 900px;
+  margin: auto;          /* <-- Centers horizontally */
+  padding-left: 1rem;    /* Optional for mobile smooth spacing */
+  padding-right: 1rem;
+}

@@ -11,7 +11,8 @@ const Nav: React.FC = () => (
         <Link to="/education">Education</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/experience">Experience</Link>
-        {/* <Link to="/gallery">Gallery</Link> */}
+        <Link to="/gallery">Gallery</Link> 
+        <Link to="/blog">Blog</Link>
         <Link to="/contact">Contact</Link>
       </div>
     </div>

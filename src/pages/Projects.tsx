@@ -1,6 +1,6 @@
-import React from 'react';
+
 import { FaExternalLinkAlt } from 'react-icons/fa';
-import { BiGitBranch } from 'react-icons/bi';
+
 
 
 export default function Projects() {
