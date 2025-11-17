@@ -32,7 +32,7 @@ const BlogDetails: React.FC = () => {
       <div className="divider"></div>
 
       <div className="techfeed-section">
-        <h2>Tech Articles Feed</h2>
+       
         <TechFeed />
       </div>
     </div>

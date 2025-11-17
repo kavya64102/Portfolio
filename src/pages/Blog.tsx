@@ -10,7 +10,7 @@ import TechFeed from "../components/TechFeed";
 const Blog: React.FC = () => {
   return (
     <div className="container blog-container">
-      <h1 className="page-title">My Blogs</h1>
+      <h1 className="page-title">My <span className="highlight">Blogs</span></h1>
 
       <div className="blog-list">
         {blogs.map((blog) => (

@@ -37,7 +37,7 @@ const TechFeed: React.FC = () => {
 
   return (
     <section style={styles.section}>
-      <h2 style={styles.heading}>Latest Tech Articles</h2>
+      <h2 style={styles.heading}>Latest <span className="highlight">Tech Articles</span></h2>
 
       <div style={styles.grid}>
         {articles.map((article) => (
@@ -75,6 +75,7 @@ const styles = {
     fontSize: "28px",
     fontWeight: 600,
     marginBottom: "20px",
+    
   },
   grid: {
     display: "grid",
@@ -98,6 +99,7 @@ const styles = {
     fontSize: "20px",
     marginTop: "10px",
     fontWeight: 600,
+    color: "#a78bfa",
   },
   description: {
     fontSize: "14px",

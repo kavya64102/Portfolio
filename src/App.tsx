@@ -15,10 +15,11 @@ import Experience from "./pages/Experience";
 import Blog from "./pages/Blog";
 import BlogDetails from "./pages/BlogDetails";
 import Gallery from "./pages/Gallery";
+import Achievements from "./pages/Achievements";
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/Portfolio/">
       <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
         <Nav />
         <main className="mt-4">
@@ -29,6 +30,7 @@ const App: React.FC = () => {
             <Route path="/education" element={<Education />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/achievements" element={<Achievements />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:id" element={<BlogDetails />} />
             <Route path="/gallery" element={<Gallery />} />

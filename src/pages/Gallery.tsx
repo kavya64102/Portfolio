@@ -23,8 +23,8 @@ const Gallery: React.FC = () => {
 
   return (
     <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <h2 className="text-2xl sm:text-3xl font-semibold text-center md:text-left">
-        Gallery
+     <h2 className="section-heading">
+       My <span className="highlight"> Gallery</span>
       </h2>
       <input
         type="text"
