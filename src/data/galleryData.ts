@@ -11,8 +11,8 @@ export interface GalleryItem {
 }
 
 export const galleryData: GalleryItem[] = [
-  { id: 1, src: image1, alt: "Project 1", category: "Projects" },
-  { id: 2, src: image2, alt: "Project 2", category: "Web" },
-  { id: 3, src: image3, alt: "Project 3", category: "Projects" },
-  { id: 4, src: image4, alt: "Project 4", category: "Web" },
+  { id: 1, src: image1, alt: "Smart India Hackathon", category: "Projects" },
+  { id: 2, src: image2, alt: "ECS Project", category: "Web" },
+  { id: 3, src: image3, alt: "Sentinel Hackathon", category: "Projects" },
+  { id: 4, src: image4, alt: "ArrowGPT project", category: "Web" },
 ];

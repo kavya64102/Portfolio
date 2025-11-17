@@ -48,6 +48,13 @@ const About: React.FC = () => {
            
           </p>
                 </div>
+                 <a
+    href={`${import.meta.env.BASE_URL}KAVYASHREE_SL_RESUME.pdf`}
+    download="KAVYASHREE_SL_RESUME.pdf"
+    className="resume-button inline-block mt-4 px-6 py-3 bg-[#7a55ad] !text-white font-bold rounded-lg hover:bg-[#624983]hover:bg-indigo-700 transition !no-underline"
+>
+    Download Resume
+  </a>
 
                 {/* 2. Skills Grid Section */}
                 <div className="skills-grid">

@@ -455,18 +455,20 @@ await fetch("http://localhost:5001/store-message", {
   };
 
   return (
-    <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <h2 className="text-2xl sm:text-3xl font-semibold text-center md:text-left">
+    <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:center">
+      <h2 className="text-3xl sm:text-3xl font-semibold text-center md:text-center">
         Contact
       </h2>
-      <p className="mt-2 text-gray-600 text-center md:text-left">
+      <p className="mt-2 text-gray-600 text-center md:text-center">
         Feel free to reach out for collaborations or opportunities.
       </p>
 
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="mt-6 max-w-xl   shadow-md rounded-xl p-6 grid gap-4"
+        // className="mt-6 max-w-2xl   shadow-md rounded-xl p-6 grid gap-4 "
+        className="mt-6 max-w-2xl mx-auto shadow-md rounded-xl p-6 grid gap-4"
+
       >
         <input
           type="text"

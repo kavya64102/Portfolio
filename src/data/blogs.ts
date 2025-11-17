@@ -8,43 +8,9 @@ export interface BlogType {
 }
 
 export const blogs: BlogType[] = [
+  
   {
     id: 1,
-    title: "How I Built My Portfolio Website",
-    excerpt:
-      "A walkthrough of how I designed, developed, and deployed my personal portfolio using React, TypeScript, and Vite.",
-    content: `
-Building my portfolio was one of the most exciting projects I worked on. I wanted something 
-that was visually clean, fast, and easy to maintain. I chose React + TypeScript + Vite 
-because of the performance benefits and developer experience.
-
-### 🔧 Tech Stack
-- React + TypeScript  
-- Vite  
-- Tailwind CSS  
-- Framer Motion (for animations)  
-- Node.js + Express (for contact form backend)  
-
-### 🎨 UI/UX Decisions
-I focused on:
-- Minimalistic design  
-- Soft colors with good contrast  
-- Reusable components  
-- Smooth animations and transitions  
-- Clean typography  
-
-### 🚀 Deployment
-I deployed the portfolio using:
-- **GitHub Pages** for frontend  
-- **Render** for backend  
-- Automated CI/CD pipeline  
-
-This project helped me improve my frontend architecture skills and understand how real-world 
-portfolio websites structure components, routing, and backend integration.
-    `,
-  },
-  {
-    id: 2,
     title: "My Journey into Full-Stack Development",
     excerpt:
       "How I transitioned into full-stack development using Java, Spring Boot, React, and modern web tools.",
@@ -79,7 +45,7 @@ Today, I can design a UI, build APIs, connect both, and deploy a complete workin
     `,
   },
   {
-    id: 3,
+    id: 2,
     title: "Understanding Microservices as a Beginner",
     excerpt:
       "A simple guide to understanding microservices architecture, service registry, API gateway, and distributed systems.",
