@@ -41,3 +41,4 @@ const BlogDetails: React.FC = () => {
 
 export default BlogDetails;
 
+

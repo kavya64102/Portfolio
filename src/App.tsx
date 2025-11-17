@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
-import Home from "./pages/Home";
+
 import Hero from "./components/Hero";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
@@ -14,6 +14,7 @@ import Education from "./pages/Education";
 import Experience from "./pages/Experience";
 import Blog from "./pages/Blog";
 import BlogDetails from "./pages/BlogDetails";
+import Gallery from "./pages/Gallery";
 
 const App: React.FC = () => {
   return (
@@ -29,7 +30,8 @@ const App: React.FC = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/:id" element={<BlogDetails />} />
+            <Route path="/blog/:id" element={<BlogDetails />} />
+            <Route path="/gallery" element={<Gallery />} />
             
           </Routes>
         </main>
