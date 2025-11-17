@@ -156,7 +156,7 @@ export default function Projects() {
               ref={(el) => {
                 if (el) cardsRef.current[index] = el;
               }}
-              className="relative project-card bg-[#1a1a3a] p-4 rounded-lg shadow-md min-w-[250px] hover:scale-105 transition-transform duration-300 flex-shrink-0"
+              className="relative project-card bg-gray-900 p-4 rounded-lg shadow-md min-w-[250px] hover:scale-105 transition-transform duration-300 flex-shrink-0"
             >
               {/* Circle to show timeline milestone */}
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-500 rounded-full border-2 border-white"></div>
