@@ -156,14 +156,14 @@ export default function Projects() {
               ref={(el) => {
                 if (el) cardsRef.current[index] = el;
               }}
-              className="relative project-card bg-indigo-900 p-4 rounded-lg shadow-md min-w-[250px] hover:scale-105 transition-transform duration-300 flex-shrink-0"
+              className="relative project-card bg-indigo-1000 p-4 rounded-lg shadow-md min-w-[250px] hover:scale-105 transition-transform duration-300 flex-shrink-0"
             >
               {/* Circle to show timeline milestone */}
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-500 rounded-full border-2 border-white"></div>
 
               <div className="project-content mt-4">
                 <h3 className="project-name font-semibold">{project.name}</h3>
-                <p className="project-description text-gray-600">{project.description}</p>
+                <p className="project-description text-white">{project.description}</p>
                 <div className="tech-stack mt-2">
                   {project.tech.map((tech, idx) => (
                     <span key={idx} className="tech-tag mr-1">
