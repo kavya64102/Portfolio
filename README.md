@@ -44,13 +44,16 @@ Built with React + TypeScript + Tailwind + Vite, fully responsive, clean, and fa
 ✔️ Fully responsive for all screen sizes
 ✔️ Easy to deploy on GitHub Pages
 
-🛠️ Tech Stack
-Technology	Use
-React + TypeScript	  Frontend
-Vite	              Fast bundler
-Tailwind CSS	      Styling
-React Router DOM	  Navigation
-gh-pages	          Deployment
+ 🛠️ Tech Stack
+
+| Technology | Purpose |
+|----------|--------|
+| React + TypeScript | Frontend development |
+| Vite | Fast bundler and dev server |
+| Tailwind CSS | Styling |
+| React Router DOM | Client-side routing |
+| gh-pages | Deployment |
+
 
 📂 Project Structure
 
@@ -112,3 +115,11 @@ npm run build
 The production-ready files will be inside:
 
 /dist
+
+
+
+
+
+
+
+
